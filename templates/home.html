@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+  <div class="jumbotron">
+    {% if session['logged_in'] %}
+    <p>{{ msg }} , {{ user }}</p>
+    {% else %}
+    <p>This is home page html</p>
+    {% endif %}
+  </div>
+
+{% endblock %}
