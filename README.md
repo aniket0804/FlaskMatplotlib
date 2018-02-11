@@ -7,3 +7,4 @@ Please run tabledef.py and dummy.py to create data and tables.
 
 Step 2:
 Run app.py with all required dependencies installed.
+pip install -r requirements.txt
